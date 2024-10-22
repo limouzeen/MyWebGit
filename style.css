@@ -1,0 +1,26 @@
+/* ทำให้ h1 มีสไตล์ */
+h1#title {
+    font-family: 'Arial', sans-serif;
+    color: #4CAF50;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+
+/* ทำให้ background ของ body เป็นสีอ่อน */
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* เพิ่ม styling ให้กับทุก element ของ body */
+body * {
+    margin: 0;
+    padding: 0;
+}
